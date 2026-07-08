@@ -390,7 +390,7 @@ task.spawn(function()
     task.wait(0.5)
     local serverRegion = detectServerRegion()
     serverValue.Text = serverRegion
-    serverIcon.Text = "🌐 REGION"
+    serverIcon.Text = "🌐 SERVER"
     
     -- Loop update ping & fps dengan smoothing
     local frameCount = 0
